@@ -8,7 +8,7 @@ export class BasePage {
     async goto(path) {
         await this.page.goto(path);
     }
-ß
+
     /**
      * Asserts that a given locator is visible on the page.
      *
