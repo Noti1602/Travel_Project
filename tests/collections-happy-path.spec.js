@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { HomePage } from '../pages/HomePage.js';
-import { CollectionsPage } from '../pages/CollectionsPage.js';
+import { HomePage } from '../pages/HomePage';
+import { CollectionsPage } from '../pages/CollectionsPage';
 
 test.describe('TravelCurious happy path – base & collections', () => {
     test('Base path (home) → Collections → different collection pages', async ({ page }) => {
