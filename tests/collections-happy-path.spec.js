@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { HomePage } from '../pages/homePage.js';
+import { HomePage } from '../pages/HomePage.js';
 import { CollectionsPage } from '../pages/CollectionsPage.js';
 
 test.describe('TravelCurious happy path – base & collections', () => {
