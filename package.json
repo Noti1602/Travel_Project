@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "npx playwright test tests/collections-happy-path.spec.js",
     "test1": "npx playwright test tests/collections-happy-path.spec.js",
-    "ui": "playwright test --ui",
+    "test-ui": "playwright test --ui",
     "report": "npx playwright show-report"
   },
   "private": true,
