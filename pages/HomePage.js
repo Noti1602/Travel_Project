@@ -1,11 +1,12 @@
 import { BasePage } from './BasePage';
 
 export class HomePage extends BasePage{
+    logo = this.page.locator('img[alt="Travel Curious Private Tours"]');
     constructor(page) {
         super(page);
         this.page = page;
 
-        this.logo = this.page.locator('img[alt="Travel Curious Private Tours"]');
+        // this.logo = this.page.locator('img[alt="Travel Curious Private Tours"]');
         this.navCollections = this.page.locator('.desktop a[href="/collections/"]', { hasText: 'Collections'} );
         this.navHotelSolutions = this.page.locator('.desktop a[href="https://partner.travelcurious.com/hotel-solutions"]', { hasText: 'Hotel Solutions'} );
         this.navBecomePartner = this.page.locator('.desktop a[href="https://partner.travelcurious.com/"]', { hasText: 'Become a partner'} );

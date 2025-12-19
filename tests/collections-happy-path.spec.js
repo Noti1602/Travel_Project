@@ -27,20 +27,4 @@ test.describe('TravelCurious happy path – base & collections', () => {
         await page.goto('/collections/');
 
     })
-
-
-//     test('Base path is reachable and header is correct', async ({ page }) => {
-//         const homePage = new homePage(page);
-//
-//         await homePage.navigateHomePage();
-//         await homePage.verifyHomeLoaded();
-//     });
-//
-
-//     test('Collections page is reachable directly by URL', async ({ page }) => {
-//         const collectionsPage = new CollectionsPage(page);
-//
-//         await collectionsPage.open();
-//         await collectionsPage.verifyCollectionsPageLoaded();
-//     });
 })
